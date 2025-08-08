@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first web page</title>
+    </head>
+    <body>
+        <h1>Introduction to HTML</h1>
+        <p>I am so excited Ive just created my first web page</p>
+        <h2>Lists</h2>
+        <h3>Ordered Lists</h3>
+        <ol> 
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ol>
+        <h3>Unordered List</h3>
+            <ul>
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <h3>Embedde Image</h3>
+            <img src="c:\Users\user 1\Downloads\Movies\plp.jpg" alt="This is my profile picture" width="300" height="200"/>
+            <h2>Table</h2>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Country</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Billiacha</td>
+                        <td>Male</td>
+                        <td>Kenya</td>
+
+                    </tr>
+                    <tr>
+                        <td>Brian</td>
+                        <td>Male</td>
+                        <td>Uganda</td>
+                    </tr>
+                    <tr>
+                        <td>Churman</td>
+                        <td>Male</td>
+                        <td>Bomet</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Embedding videos & Audio</h2>
+            <video width="500" height="300" controls>
+                <source src="c:\Users\user 1\Downloads\My First Syllaby Video.mp4" type="video/mp4">
+                Your browser does not support videos.
+
+            </video>
+            <audio>
+                <source src="" type="audio/mpeg">
+                Your browser does not support audio playback.
+
+            </audio>
+            <form>
+                <h2>Forms</h2>
+                <form action="" method="">
+                    <label for="">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name...">
+                    <br /><br />
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email..">
+                    <!--username@gmail.com-->
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" max="35" min="18" placeholder="Enter your age here...">
+                    <br /><br />
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob">
+                    <br /><br />
+                    <label for gender="">Gender:</label>
+                    <input type="radio" name="gender" value="Male">male<br />
+                    <br /><br />
+                    <input type="radio" name="gender" value="Female">Female<br />
+                    <br /><br />
+                    <label for="cv">Upload CV:</label>
+                    <input type="file" name="cv" id="cv">
+                    <br /><br />
+                    <label for="bio">Bio:</label>
+                    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Write your bio here..."></textarea>
+                    <br /><br />
+                    <input type="submit" value="submit..">
+            </form>
+    </body>
+</html>
